@@ -1,3 +1,6 @@
+let bigInt = require("big-integer");
 module.exports = function multiply(first, second) {
-  // your solution
-}
+    // your solution
+    return bigInt(first).multiply(second).toString();
+
+};
